@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+    </script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alexandria:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Fontawesom -->
+    <script src="https://kit.fontawesome.com/c2d7bc62e6.js" crossorigin="anonymous"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Paradise Tendas</title>
+    <link rel="icon" href="imagens/favicon.ico">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid nav-container">
+            <div class="logo">
+                <p><a href="index.html"><img class="logo" src="imagens/logo.png" alt="logo-empresa"></a></p>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto text-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">
+                            <p>HOME</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#quem-somos">
+                            <p>QUEM SOMOS</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#produtos-servicos">
+                            <p>PRODUTOS E SERVIÇOS</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navbar-contato" href="#orcamento">
+                            <p>LOCAÇÃO</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navbar-contato" href="#orcamento">
+                            <p>ORÇAMENTO</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home -->
+    <div id="home">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item carousel-item-home active">
+                    <div class="sobre-texto">
+                        <div class="imagem-banner">
+                            <img class="desktop" src="imagens/banner.png" alt="">
+                            <img class="mobile" src="imagens/1.png" alt="">
+                        </div>
+                        <div class="texto-banner">
+                            <img src="imagens/logo.png" alt="logo.png">
+                            <h1>Conheça Nossos Modelos</h1>
+                            <button><a class="nav-link" href="modelos.html">
+                                    <p>ACESSE</p>
+                                </a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-item-home">
+                    <div class="sobre-texto">
+                        <div class="imagem-banner">
+                            <img class="desktop" src="imagens/banner2.png" alt="">
+                            <img class="mobile" src="imagens/2.png" alt="">
+                        </div>
+                        <div class="texto-banner">
+                            <img src="imagens/logo.png" alt="logo.png">
+                            <h1>Solicite Uma Cotação</h1>
+                            <button><a class="nav-link" href="#orcamento">
+                                    <p>ACESSE</p>
+                                </a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-item-home">
+                    <div class="sobre-texto">
+                        <div class="imagem-banner">
+                            <img class="desktop" src="imagens/banner3.png" alt="">
+                            <img class="mobile" src="imagens/3.png" alt="">
+                        </div>
+                        <div class="texto-banner">
+                            <img src="imagens/logo.png" alt="logo.png">
+                            <h1>Locação e Venda</h1>
+                            <button><a class="nav-link" href="#produtos-servicos">
+                                    <p>ACESSE</p>
+                                </a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Quem somos -->
+    <div id="quem-somos" class="quem-somos">
+        <div class="quem-somos-imagem">
+            <img src="imagens/quem-somos.jpeg" alt="quem-somos-img">
+        </div>
+        <div class="quem-somos-texto">
+            <h2>Quem Somos?</h2>
+            <p>Localizada na cidade de Barra Velha, litoral norte de Santa Catarina e com tradição no mercado, nossos
+                clientes do Brasil inteiro, podem contar com os serviços prestados pela Paradise Tendas; uma empresa com
+                mais de 10 anos de atuação no mercado, que tem qualidade Premium em seus produtos e utiliza tecnologia
+                de ponta em todos os trabalhos.</p>
+        </div>
+    </div>
+
+    <!-- Produtos e Servicos -->
+    <div id="produtos-servicos" class="produtos-servicos">
+        <div class="produtos-servicos-texto">
+            <h2>Produtos e Serviços</h2>
+            <ul>
+                <li>Fabricação própria</li>
+                <li>Venda e locação de tendas para eventos</li>
+                <li>Fabricamos produtos sob medida, conforme seu projeto</li>
+                <li>Tenda chapéu de bruxa, piramidal, beach tenda</li>
+            </ul>
+            <button><a class="nav-link" href="modelos.html">
+                    <p>ACESSE</p>
+                </a></button>
+        </div>
+        <div class="produtos-servicos-imagem">
+            <div id="carouselExampleCaptions" class="carousel slide carousel-produto" data-bs-ride="false">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item carrosel-produtos active">
+                        <img src="imagens/chapeu1.png" class="d-block" alt="...">
+                        <div class="carousel-caption ">
+                            <h5>Tenda Chapéu De Bruxa</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item carrosel-produtos">
+                        <img src="imagens/piramidal2.png" class="d-block " alt="...">
+                        <div class="carousel-caption ">
+                            <h5>Tenda Piramidal</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item carrosel-produtos">
+                        <img src="imagens/beach1.jpg" class="d-block " alt="...">
+                        <div class="carousel-caption ">
+                            <h5>Beach Tenda</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item carrosel-produtos">
+                        <img src="imagens/cristal2.png" class="d-block " alt="...">
+                        <div class="carousel-caption ">
+                            <h5>Tenda Cristal</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item carrosel-produtos">
+                        <img src="imagens/galpao1.png" class="d-block " alt="...">
+                        <div class="carousel-caption ">
+                            <h5>Galpão</h5>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Parceiros -->
+    <div class="parceiros">
+        <h2>Parceiros</h2>
+        <div class="parceiros-img-wrapper">
+            <div class="parceiros-imagem">
+                <img class="parceiros-logos" src="imagens/logo-netzsch.jpg" alt="">
+            </div>
+            <div class="parceiros-imagem">
+                <img class="parceiros-logos" src="imagens/logo-tigre.png" alt="">
+            </div>
+            <div class="parceiros-imagem">
+                <img class="parceiros-logos" src="imagens/logo-weiku.png" alt="">
+            </div>
+            <div class="parceiros-imagem">
+                <img class="parceiros-logos" src="imagens/logo-floripa.jpg" alt="">
+            </div>
+            <div class="parceiros-imagem">
+                <img class="parceiros-logos" src="imagens/logo-balneario.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- Orcamento -->
+    <h2 id="orcamento" class="orcamento-h2">Solicite seu orçamento</h2>
+    <div class="">
+        <div id="orcamento" class="orcamento">
+            <div class="contato-txt formulario">
+                <form action="mailto:paradisetendas@gmail.com?" method="post" enctype="text/plain">
+                    <div class="compra-venda">
+                        <select id="compra-venda">
+                            <option selected disabeld value="">Comprar Tenda</option>
+                            <option value="">Alugar Tenda</option>
+                        </select>
+                    </div>
+                    <div class="tipo-tenda">
+                        <select id="compra-venda">
+                            <option selected disabeld value="">Tenda Piramidal</option>
+                            <option value="">Galpão</option>
+                            <option value="">Cristal</option>
+                            <option value="">Chapéu de Bruxa</option>
+                            <option value="">Beach</option>
+                        </select>
+                    </div>
+                    <div class="tamanho-tenda">
+                        <select id="compra-venda">
+                            <option selected disabeld value="">3x2</option>
+                            <option value="">3x3</option>
+                            <option value="">4x4</option>
+                            <option value="">5x5</option>
+                            <option value="">6x6</option>
+                            <option value="">8x8</option>
+                            <option value="">10x10</option>
+                            <option value="">12x12</option>
+                            <option value="">Outros Tamanhos</option>
+                        </select>
+                    </div>
+                    <div class="unidade-tenda">
+                        <select id="compra-venda">
+                            <option selected disabeld value="">01 unidade</option>
+                            <option value="">02 unidades</option>
+                            <option value="">03 unidades</option>
+                            <option value="">Mais de 03 unidades</option>
+                        </select>
+                    </div>
+                    <div class="campo">
+                        <input type="text" name="nome" id="nome" placeholder="Nome" required>
+                    </div>
+                    <div class="campo">
+                        <input type="tel" name="telefone" id="telefone" placeholder="Telefone" required>
+                    </div>
+                    <div class="campo">
+                        <input type="email" name="email" id="email" placeholder="email" required>
+                    </div>
+                    <div class="campo">
+                        <textarea name="mensagem" id="mensagem" cols="30" rows="5" placeholder="Quer deixar uma mensagem?"></textarea>
+                    </div>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+            <div class="orcamento-texto"  >
+                <img class="orcamento-logo" src="imagens/logo.png" alt="">
+                <div class="container-fluid contact">
+                    <a href="https://wa.me/5547996758122" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                            <path
+                                d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z" />
+                            </svg>
+                        <p>(47) 99675-8122</p>
+                    </a>
+                    <a href="mailto:paradisetendas@gmail.com?">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                            <path
+                                d="M0 128C0 92.65 28.65 64 64 64H448C483.3 64 512 92.65 512 128V384C512 419.3 483.3 448 448 448H64C28.65 448 0 419.3 0 384V128zM48 128V150.1L220.5 291.7C241.1 308.7 270.9 308.7 291.5 291.7L464 150.1V127.1C464 119.2 456.8 111.1 448 111.1H64C55.16 111.1 48 119.2 48 127.1L48 128zM48 212.2V384C48 392.8 55.16 400 64 400H448C456.8 400 464 392.8 464 384V212.2L322 328.8C283.6 360.3 228.4 360.3 189.1 328.8L48 212.2z" />
+                            </svg>
+                        <p>paradisetendas@gmail.com</p>
+                    </a>
+                    <a href="https://goo.gl/maps/5FQYfWwXQn3TJ9c48">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                            <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                            <path
+                                d="M408 120c0 54.6-73.1 151.9-105.2 192c-7.7 9.6-22 9.6-29.6 0C241.1 271.9 168 174.6 168 120C168 53.7 221.7 0 288 0s120 53.7 120 120zm8 80.4c3.5-6.9 6.7-13.8 9.6-20.6c.5-1.2 1-2.5 1.5-3.7l116-46.4C558.9 123.4 576 135 576 152V422.8c0 9.8-6 18.6-15.1 22.3L416 503V200.4zM137.6 138.3c2.4 14.1 7.2 28.3 12.8 41.5c2.9 6.8 6.1 13.7 9.6 20.6V451.8L32.9 502.7C17.1 509 0 497.4 0 480.4V209.6c0-9.8 6-18.6 15.1-22.3l122.6-49zM327.8 332c13.9-17.4 35.7-45.7 56.2-77V504.3L192 449.4V255c20.5 31.3 42.3 59.6 56.2 77c20.5 25.6 59.1 25.6 79.6 0zM288 152c22.1 0 40-17.9 40-40s-17.9-40-40-40s-40 17.9-40 40s17.9 40 40 40z" />
+                            </svg>
+                        <p>Rua dos Diniz, nº 73, Bairro Quinta dos Açorianos, Barra Velha/SC</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="botao-wpp">
+        <a href="https://wa.me/5547996758122" target="_blank">
+            <img src="imagens/wpp-logo.png" alt="botao-wpp">
+        </a>
+    </div>
+
+    <div class="seta">
+        <a href="#home"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                <path
+                    d="M201.4 137.4c12.5-12.5 32.8-12.5 45.3 0l160 160c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L224 205.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l160-160z" />
+                </svg></a>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div>
+            <p>2022 © Copyright Paradise Tendas. Todos os direitos reservados – Política de Privacidade</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
