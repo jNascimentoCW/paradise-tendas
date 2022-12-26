@@ -530,12 +530,16 @@ h1, h2, h3{
         transform: translate(-50%, -50%);
     }
 
+    .imagem-banner img{
+        height: 15rem;
+    }
+
     .header{
         margin: 5rem 0 0;
     }
 
     .carousel-item-home{
-        height: 11.3rem;
+        height: 15rem;
     }
 
     .sobre-texto{
